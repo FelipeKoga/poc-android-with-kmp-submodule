@@ -40,7 +40,7 @@ android {
 }
 
 dependencies {
-    implementation("dev.koga:poc_kmp_submodule")
+    implementation("dev.koga:poc_kmp_submodule:shared")
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
