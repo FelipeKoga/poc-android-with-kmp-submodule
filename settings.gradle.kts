@@ -23,7 +23,7 @@ enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 rootProject.name = "poc-android"
 include(":app")
-includeBuild("kmp-shared") {
+includeBuild("libs") {
     dependencySubstitution {
         substitute(module("dev.koga:poc_kmp_submodule"))
             .using(project(":shared"))
